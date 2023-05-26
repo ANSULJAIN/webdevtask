@@ -1,0 +1,84 @@
+.my-title {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(108, 104, 232);
+    color: white;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.my-top-users {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(108, 104, 232);
+    color: white;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+}
+.my-top-users > div > img {
+    border: 2px solid white;
+    border-radius: 6rem;
+    margin: 10px;
+}
+.my-top-users > div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.my-user-rank {
+    display: flex;
+    justify-content: center;
+}
+.my-user-rank > span {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188, 189, 252);
+}
+.my-user-name {
+    display: flex;
+    justify-content: center;
+}
+.my-user-name > span {
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: rgb(188, 189, 252);
+}
+
+.my-leaderboard-table {
+    margin: 20px auto;
+}
+.my-leaderboard-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 189, 252);
+    margin: 10px auto;
+    padding: 10px;
+}
+.my-table-serial {
+    width: 100px;
+    text-align: center;
+}
+.my-table-avatar {
+    width: 200px;
+}
+.my-table-avatar > img {
+    width: 40px;
+    border-radius: 2rem;
+    border: 1px solid white;
+}
+.my-table-name {
+    text-align: center;
+    width: 500px;
+}
+.my-table-score {
+    text-align: center;
+    width: 500px;
+}
